@@ -1,0 +1,30 @@
+:root {
+  --mainDark: #131c2f;
+  --mainLight: #cbd5e1;
+  --mainYellow: #ffbf71;
+  --mainPurple: rebeccapurple;
+  --toggleHeight: 16em;
+  --toggleWidth: 30em;
+  --toggleRadius: 10em;
+  --bgNight: #423966;
+  --moonColor: #d9fbff;
+  --bgLight: #9ee3fb;
+}
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  
+}
+.dark-theme{
+  background-color: #131c2f;
+  color:var(--mainLight) ;
+}
+.close{
+  display: none;
+}
+.open{
+  display: block;
+}
+

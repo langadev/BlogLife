@@ -1,0 +1,16 @@
+:root {
+    --mainDark: #131c2f;
+    --mainLight: #cbd5e1;
+    --mainYellow: #ffbf71;
+    --mainPurple: rebeccapurple;
+    --toggleHeight: 16em;
+    --toggleWidth: 30em;
+    --toggleRadius: 10em;
+    --bgNight: #423966;
+    --moonColor: #d9fbff;
+    --bgLight: #9ee3fb;
+}
+.dark-theme{
+    background-color: #131c2f;
+    color:var(--mainLight) ;
+  }

@@ -1,0 +1,11 @@
+.search-container{
+    background-color: rgba(0, 0, 0, 0.505);
+    position: fixed;
+    z-index: 2;
+    place-items: center;
+}
+@media(max-width:760px){
+    .results{
+        width: 200px;
+    }
+}

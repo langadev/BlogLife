@@ -1,0 +1,38 @@
+:root {
+    --mainDark: #131c2f;
+    --mainLight: #cbd5e1;
+    --mainYellow: #ffbf71;
+    --mainPurple: rebeccapurple;
+    --toggleHeight: 16em;
+    --toggleWidth: 30em;
+    --toggleRadius: 10em;
+    --bgNight: #423966;
+    --moonColor: #d9fbff;
+    --bgLight: #9ee3fb;
+}
+
+.mobile-navbar{
+    top: 0;
+    z-index: 1;
+    background-color: #fff;
+    display: none;
+    
+   
+}
+.dark-theme{
+    background-color: #131c2f;
+    color:var(--mainLight) ;
+    .mobile-navbar{
+        background-color: #131c2f;
+    }
+  }
+  .ligth{
+  .mobile-navbar{
+    background-color: white;
+  }
+}
+@media(max-width:769px){
+  .mobile-navbar{
+       display: block;
+   }
+}

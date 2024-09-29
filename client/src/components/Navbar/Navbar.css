@@ -1,0 +1,57 @@
+:root {
+    --mainDark: #131c2f;
+    --mainLight: #cbd5e1;
+    --mainYellow: #ffbf71;
+    --mainPurple: rebeccapurple;
+    --toggleHeight: 16em;
+    --toggleWidth: 30em;
+    --toggleRadius: 10em;
+    --bgNight: #423966;
+    --moonColor: #d9fbff;
+    --bgLight: #9ee3fb;
+}
+
+.navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    padding: 1.8rem 5%;
+    background-color: #fff;
+}
+.dark-theme{
+    background-color: #131c2f;
+    color:var(--mainLight) ;
+    .navbar{
+        background-color: #131c2f;
+    }
+  }
+  .ligth{
+  .navbar{
+    background-color: white;
+  }
+  }
+  @media(max-width:460px){
+    .logo{
+        font-size: 1.2rem;
+    }
+    .list{
+        gap: .7rem;
+       
+    }
+    .text-icon{
+        font-size: 1rem;
+    }
+  }
+  @media(max-width:350px){
+    .logo{
+        font-size: 1rem;
+    }
+    .list{
+        gap: 0.3rem;
+       
+    }
+    .text-icon{
+        font-size: 0.9rem;
+    }
+  }
